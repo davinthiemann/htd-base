@@ -1,0 +1,19 @@
+{
+  "name": "davinthiemann/htd-base",
+  "type": "typo3-cms-extension",
+  "description": "Base module of the HDNET TYPO3 Distribution",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "typo3/cms-core": "^13.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hdnet\\HtdBase\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "htd_base"
+    }
+  }
+}
